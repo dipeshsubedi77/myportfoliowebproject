@@ -112,16 +112,16 @@ nav ul li:hover{
    
     width:2rem ;
     border-radius: 50%;
-    height: 2rem;
+    height: 1.5rem;
     cursor: pointer;
-    border:2px solid yellow;
+   
     text-align: center;
     color: yellow;
    
     
 }
 .socialMedia i:hover{
-    border: 3px solid white;
+   
     color: white;
 
 }
