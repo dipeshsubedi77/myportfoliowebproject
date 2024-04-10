@@ -89,7 +89,8 @@ nav ul li:hover{
 
 }
 .left .Dipesh{
-    margin-top: 2rem;
+    padding-bottom: 0;
+    margin-top: 4rem;
 }
 .left h1{
     font-size: 2rem;
@@ -101,10 +102,11 @@ nav ul li:hover{
     border: 1px solid rgb(255, 221, 25);
    
    
-   width: 12rem;
+   width: 15rem;
    display: flex;
    justify-content: space-around;
    align-items: center;
+   position: relative;
    
    
 }
@@ -123,6 +125,7 @@ nav ul li:hover{
 .socialMedia i:hover{
    
     color: white;
+    
 
 }
 
@@ -135,13 +138,14 @@ nav ul li:hover{
 /* service */
 .services{
     padding-left: 1rem;
-    height: 120vh;
+    height: 150vh;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     column-gap: 1rem;
     color:white;
     background-color: var(--primaryColor);
     padding-top: 3rem;
+    flex-wrap: wraps;
 }
 .services div{
     height: 18rem;
@@ -181,7 +185,89 @@ nav ul li:hover{
     text-align: center;
     font-size: 3rem;
     border-bottom: 2px solid black;
-    padding-top: 1rem;
+    padding-top: 2rem;
     background-color: #020202;
     border-bottom: 1px solid yellow;
+}
+
+
+
+#projects{
+    width: 100%;
+    background-color:var(--primaryColor);
+    height: 150vh;
+    padding: 3rem;
+
+
+}
+.carousel-inner{
+    height: 70vh;
+    
+}
+h5{
+    color: #f3f705;
+}
+
+.contact{
+    height: 150vh;
+    width: 100%;
+    padding: 3rem;
+    background-color:var(--primaryColor);
+    display: flex;
+    
+    
+}
+.contactLeft{
+    width: 25%;
+    height: 100%;
+    background-color: #ec0707;
+    border: 1px solid black;
+}
+.contactRight{
+    width: 75%;
+    height: 100%;
+    background-color: var(--primaryColor);
+    border: 2px solid rgb(22, 22, 20);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.contactForm{
+   max-width: 40rem;
+   width: 100%;
+   background-color: yellow;
+   padding: 2rem;
+   border-radius: 0.8rem;
+   box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
+
+}
+label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: .6rem;
+}
+input,textarea{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: .4rem;
+}
+.contactForm button {
+    background-color: var(--lightColor);
+    padding: 1rem 2rem;
+    
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: white .3s ease-in-out;
+    margin-top: .3rem;
+
+
+}
+button:hover{
+    background-color:black;
+    color: white;
+    
 }
